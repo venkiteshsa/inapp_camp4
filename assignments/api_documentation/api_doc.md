@@ -1,8 +1,8 @@
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <center><h1 style="font-size: 60pt;">CRM API Documentation</h1></center>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 # Index
@@ -98,11 +98,12 @@
         "code": String,
         "name": String,
         "description": String,
+        "preview" : String,
         "qualification": String,
         "trainer": Number,  
-        "duration": Number,
+        "duration": Number, 
         "startDate": String,
-        "amount": Number
+        "batchSize": Number
     }
     ```
 
@@ -123,11 +124,12 @@
         "code": String,
         "name": String,
         "description": String,
+        "preview" : String,
         "qualification": String,
         "trainer": Number,  
         "duration": Number, 
         "startDate": String,
-        "amount": Number
+        "batchSize": Number
     }
     ```
 
@@ -137,11 +139,12 @@
         "code": String,
         "name": String,
         "description": String,
+        "preview" : String,
         "qualification": String,
         "trainer": Number,  
-        "duration": Number,
+        "duration": Number, 
         "startDate": String,
-        "amount": Number
+        "batchSize": Number
     }
     ```
 
@@ -166,11 +169,12 @@
         "code": String,
         "name": String,
         "description": String,
+        "preview" : String,
         "qualification": String,
         "trainer": Number,  
         "duration": Number, 
         "startDate": String,
-        "amount": Number
+        "batchSize": Number
     }
     ```
 
@@ -180,11 +184,12 @@
         "code": String,
         "name": String,
         "description": String,
+        "preview" : String,
         "qualification": String,
         "trainer": Number,  
         "duration": Number, 
         "startDate": String,
-        "amount": Number
+        "batchSize": Number
     }
     ```
 
@@ -503,6 +508,7 @@
 
 
 ---
+
 
 ## Categories
 - ### List all categories
